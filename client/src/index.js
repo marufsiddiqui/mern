@@ -2,10 +2,10 @@ import React from "react";
 import ReactDOM from "react-dom";
 import { Provider } from "react-redux";
 import { createStore, applyMiddleware } from "redux";
-import { BrowserRouter, Route } from 'react-router-dom';
+
+import 'materialize-css/dist/css/materialize.min.css';
 
 import App from "./components/App";
-import Header from "./components/Header";
 import reducers from './reducers';
 import registerServiceWorker from "./registerServiceWorker";
 
